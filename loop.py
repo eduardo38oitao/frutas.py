@@ -1,12 +1,23 @@
-import random as rd 
 
 print ("*************************")
-print ("Bem vindo a esccolha de frut")
+print ("AS MELHORES 4 FRUTAS")
 print ("*************************")
+
+def listar_invertida(lista):
+
+
+    for indice, valor in enumerate(reversed(lista)):
+        print(f"Posição {indice}: {valor}")
+
+
+        
+    print("***********")
+    print("Fim")
+    print("***********")
 
 frutas = ["Maçã", "Banana", "Caju", "Manga"]
 
-for indice, valor in enumerate(frutas):
-    print(f"Posição {indice}: {valor}")
 
-    
+listar_invertida(frutas)
+
+        
